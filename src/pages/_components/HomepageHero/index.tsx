@@ -152,7 +152,7 @@ function Name() {
           e.currentTarget.style.setProperty('--positionY', `${bounding.y}px`)
         }}
       >
-        <Translate id="homepage.hero.name">愧怍</Translate>
+        <Translate id="homepage.hero.name">think4code</Translate>
       </span>
       <span className={styles.wave}>👋</span>
     </motion.div>
@@ -164,16 +164,26 @@ export default function Hero() {
     <motion.div className={styles.hero}>
       <div className={styles.intro}>
         <Name />
-        <motion.p
+          <motion.p
           custom={2}
-          initial="hidden"
-          animate="visible"
-          variants={variants}
-        >
+            initial="hidden"
+            animate="visible"
+            variants={variants}
+            >
           <Translate id="homepage.hero.text">
-            {`在这里我会分享各类技术栈所遇到问题与解决方案，带你了解最新的技术栈以及实际开发中如何应用，并希望我的开发经历对你有所启发。`}
+          {`在这里我会分享各类技术栈所遇到问题与解决方案，带你了解最新的技术栈以及实际开发中如何应用，并希望我的开发经历对你有所启发。`}
           </Translate>
-        </motion.p>
+            </motion.p>
+          <motion.p
+          custom={2}
+            initial="hidden"
+            animate="visible"
+            variants={variants}
+            >
+          <Translate id="homepage.hero.text2">
+          {`刚开始，慢慢完善`}
+          </Translate>
+            </motion.p>
         <motion.div
           custom={3}
           initial="hidden"

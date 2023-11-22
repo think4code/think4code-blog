@@ -18,9 +18,9 @@ function SiteInfo() {
       <CodeBlock language="jsx">
         {`{
   // 本站信息
-  title: '愧怍的小站',
-  description: '道阻且长，行则将至',
-  avatar: 'https://kuizuo.cn/img/logo.png'
+  title: 'think4code的小站',
+  description: '',
+  avatar: 'https://think4code.com/img/logo.png'
 }`}
       </CodeBlock>
     </div>
@@ -68,9 +68,6 @@ export default function FriendLink(): JSX.Element {
       <motion.main ref={ref} className="margin-vert--md">
         <FriendHeader />
         <FriendCards />
-        <motion.div drag dragConstraints={ref} className={styles.dragBox}>
-          <SiteInfo />
-        </motion.div>
       </motion.main>
     </Layout>
   )

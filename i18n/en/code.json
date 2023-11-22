@@ -4,11 +4,15 @@
     "description": "hero greet"
   },
   "homepage.hero.name": {
-    "message": "Kuizuo",
+    "message": "think4code",
     "description": "hero name"
   },
   "homepage.hero.text": {
     "message": "Here I will share the problems and solutions encountered by various technology stacks, take you to understand the latest technology stacks and how to apply them in actual development, and hope that my development experience will inspire you",
+    "description": "hero text"
+  },
+  "homepage.hero.text2": {
+    "message": "At the beginning, gradually improving...",
     "description": "hero text"
   },
   "hompage.hero.introduce": {

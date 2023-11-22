@@ -14,7 +14,7 @@ export default async function createConfigAsync() {
     favicon: 'img/favicon.ico',
     organizationName: 'think4code',
     projectName: 'blog',
-    tagline: '道阻且长，行则将至',
+    tagline: '随便玩玩',
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     themeConfig: {
       // announcementBar: {
@@ -54,27 +54,6 @@ export default async function createConfigAsync() {
         hideOnScroll: true,
         items: [
           {
-            label: '博客',
-            position: 'right',
-            to: 'blog',
-          },
-          {
-            label: '项目',
-            position: 'right',
-            to: 'project',
-          },
-          {
-            label: '更多',
-            position: 'right',
-            items: [
-              { label: '归档', to: 'blog/archive' },
-              { label: '笔记', to: 'docs/skill' },
-              { label: '资源', to: 'resource' },
-              { label: '友链', to: 'friends' },
-              { label: '工具推荐', to: 'docs/tools' },
-            ],
-          },
-          {
             type: 'localeDropdown',
             position: 'right',
           },
@@ -84,26 +63,10 @@ export default async function createConfigAsync() {
         style: 'dark',
         links: [
           {
-            title: '学习',
-            items: [
-              { label: '博客', to: 'blog' },
-              { label: '归档', to: 'blog/archive' },
-              { label: '技术笔记', to: 'docs/skill' },
-              { label: '实战项目', to: 'project' },
-              { label: '前端示例', to: 'https://example.kuizuo.cn' },
-            ],
-          },
-          {
             title: '社交媒体',
             items: [
               { label: '关于我', to: '/about' },
-              { label: 'GitHub', href: 'https://github.com/kuizuo' },
-              { label: 'Twitter', href: 'https://twitter.com/kuizuo' },
-              {
-                label: '掘金',
-                href: 'https://juejin.cn/user/1565318510545901',
-              },
-              { label: 'Discord', href: 'https://discord.gg/M8cVcjDxkz' },
+              { label: 'GitHub', href: 'https://github.com/think4code' },
             ],
           },
           {
@@ -113,35 +76,22 @@ export default async function createConfigAsync() {
               { label: '导航', position: 'right', to: 'resource' },
               // { label: '我的站点', position: 'right', to: 'website' },
               {
-                html: `<a href="https://docusaurus.io/zh-CN/" target="_blank"><img style="height:50px;margin-top:0.5rem" src="/img/buildwith.png" /><a/>`,
+                html: `<a href="https://kuizuo.cn" target="_blank"><img style="height:50px;margin-top:0.5rem" src="/img/kuizuo.webp" /><a/>`,
               },
             ],
           },
         ],
-        copyright: `<p><a href="http://beian.miit.gov.cn/" >${beian}</a></p><p>Copyright © 2020 - PRESENT 愧怍 Built with Docusaurus.</p>`,
-      },
-      algolia: {
-        appId: 'GV6YN1ODMO',
-        apiKey: '50303937b0e4630bec4a20a14e3b7872',
-        indexName: 'kuizuo',
-      },
-      giscus: {
-        repo: 'kuizuo/blog',
-        repoId: 'MDEwOlJlcG9zaXRvcnkzOTc2MjU2MTI=',
-        category: 'General',
-        categoryId: 'DIC_kwDOF7NJDM4CPK95',
-        theme: 'light',
-        darkTheme: 'dark',
+        copyright: `<p><a href="http://beian.miit.gov.cn/" >${beian}</a></p><p>Copyright © 2020 - PRESENT think4code Built with Docusaurus.</p>`,
       },
       socials: {
-        github: 'https://github.com/kuizuo',
-        twitter: 'https://twitter.com/kuizuo',
-        juejin: 'https://juejin.cn/user/1565318510545901',
-        csdn: 'https://blog.csdn.net/kuizuo12',
-        qq: 'https://wpa.qq.com/msgrd?v=3&amp;uin=911993023&amp;site=qq',
-        zhihu: 'https://www.zhihu.com/people/kuizuo',
-        cloudmusic: 'https://music.163.com/#/user/home?id=1333010742',
-        email: 'mailto:hi@kuizuo.cn',
+        github: 'https://github.com/think4code',
+//        twitter: 'https://twitter.com/kuizuo',
+//        juejin: 'https://juejin.cn/user/1565318510545901',
+//        csdn: 'https://blog.csdn.net/kuizuo12',
+        qq: 'https://wpa.qq.com/msgrd?v=3&amp;uin=1915384707&amp;site=qq',
+//        zhihu: 'https://www.zhihu.com/people/kuizuo',
+//        cloudmusic: 'https://music.163.com/#/user/home?id=1333010742',
+        email: 'think4code@qq.com',
       },
       prism: {
         theme: themes.oneLight,
@@ -220,8 +170,8 @@ export default async function createConfigAsync() {
             defaultReadingTime({ content, options: { wordsPerMinute: 300 } }),
           feedOptions: {
             type: 'all',
-            title: '愧怍',
-            copyright: `Copyright © ${new Date().getFullYear()} 愧怍 Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
+            title: 'think4code',
+            copyright: `Copyright © ${new Date().getFullYear()} think4code Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
           },
         },
       ],

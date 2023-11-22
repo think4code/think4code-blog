@@ -19,25 +19,24 @@ const FeatureList: FeatureItem[] = [
   {
     title: translate({
       id: 'homepage.feature.developer',
-      message: 'TypeScript 全栈工程师',
+      message: '算是程序员吧',
     }),
     Svg: WebDeveloperSvg,
     description: (
       <>
-        作为一名 TypeScript 全栈工程师，秉着能用 TS 绝不用 JS
-        的原则，为项目提供类型安全的保障，提高代码质量和开发效率。
+        平时工作包括：需求受理与分析、数据库表结构设计、参与后端代码编写、跟进团队项目进度等等，更喜欢些代码。
       </>
     ),
   },
   {
     title: translate({
       id: 'homepage.feature.spider',
-      message: '会点逆向 & 爬虫',
+      message: '我有架构师证书哦',
     }),
     Svg: SpiderSvg,
     description: (
       <>
-        作为一名曾学习与实践逆向工程两年半的开发者，对于逆向工程有着浓厚的兴趣，同时造就了超凡的阅读代码能力。没有看不懂的代码，只有不想看的代码。
+        哈哈，我考过了软考高级，系统架构设计师。别管自己有多少水平，考过了就很开心
       </>
     ),
   },
