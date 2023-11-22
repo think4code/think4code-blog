@@ -1,18 +1,18 @@
 const { themes } = require('prism-react-renderer');
 
 const path = require('path')
-const beian = '闽ICP备2020017848号-2'
+const beian = '苏ICP备17016749号'
 
 const announcementBarContent = ''
 
 export default async function createConfigAsync() {
   /** @type {import('@docusaurus/types').Config} */
   return {
-    title: '愧怍的小站',
-    url: 'https://kuizuo.cn',
+    title: 'think4code的小站',
+    url: 'https://think4code.com',
     baseUrl: '/',
     favicon: 'img/favicon.ico',
-    organizationName: 'kuizuo',
+    organizationName: 'think4code',
     projectName: 'blog',
     tagline: '道阻且长，行则将至',
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -24,15 +24,11 @@ export default async function createConfigAsync() {
       metadata: [
         {
           name: 'keywords',
-          content: '愧怍, kuizuo',
+          content: 'think4code',
         },
         {
           name: 'keywords',
-          content: 'blog, javascript, typescript, node, react, vue, web',
-        },
-        {
-          name: 'keywords',
-          content: '编程爱好者, Web开发者, 写过爬虫, 学过逆向, 现在主攻ts全栈',
+          content: 'blog, web',
         },
       ],
       docs: {
@@ -45,13 +41,13 @@ export default async function createConfigAsync() {
           tagName: 'meta',
           attributes: {
             name: 'description',
-            content: '愧怍的个人博客',
+            content: 'think4code的个人博客',
           },
         },
       ],
       navbar: {
         logo: {
-          alt: '愧怍',
+          alt: 'think4code',
           src: 'img/logo.webp',
           srcDark: 'img/logo.webp',
         },
