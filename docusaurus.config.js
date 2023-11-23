@@ -54,10 +54,27 @@ export default async function createConfigAsync() {
         hideOnScroll: true,
         items: [
           {
+            label: '博客',
+            position: 'right',
+            to: 'blog',
+          },
+          {
+            label: '项目',
+            position: 'right',
+            to: 'project',
+          },
+          {
+            label: '更多',
+            position: 'right',
+            items: [
+              { label: '笔记', to: 'docs/skill' },
+            ],
+          },
+          {
             type: 'localeDropdown',
             position: 'right',
           },
-        ],
+        ]
       },
       footer: {
         style: 'dark',
