@@ -2,15 +2,15 @@
   "name": "blog",
   "version": "3.0.0",
   "author": {
-    "url": "https://github.com/kuizuo",
-    "email": "hi@kuizuo.cn",
-    "name": "Kuizuo"
+    "url": "https://github.com/think4code",
+    "email": "think4code@qq.com",
+    "name": "think4code"
   },
   "repository": {
-    "url": "https://github.com/kuizuo/blog",
+    "url": "https://github.com/think4code/think4code-blog",
     "type": "git"
   },
-  "homepage": "https://kuizuo.cn",
+  "homepage": "https://think4code.com",
   "license": "MIT",
   "scripts": {
     "docusaurus": "docusaurus",
